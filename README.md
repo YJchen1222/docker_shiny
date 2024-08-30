@@ -1,4 +1,5 @@
 # docker_shiny
 Creating an R shiny Docker image using Dockerfile
 
-## A second-level heading
+# Create Dockerfile and R shiny program code.
+This is the public version of Dockerfile, which is used to build R shiny applications to Docker images.
