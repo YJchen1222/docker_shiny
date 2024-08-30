@@ -1,0 +1,19 @@
+*.log
+
+# ignore build folder
+build/
+
+# ignore Windows system file
+Thumbs.db
+desktop.ini
+
+# Vim temporary files
+*~
+*.swp
+*.swo
+
+# Vim undo files
+*.un~
+
+# Vim persistent undo
+.netrwhist
