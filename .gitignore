@@ -47,3 +47,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Vim temporary files
+*~
+*.swp
+*.swo
+
+# Vim undo files
+*.un~
+
+
