@@ -5,8 +5,8 @@ Creating an R shiny Docker image using Dockerfile
 This is the public version of Dockerfile, which is used to build R shiny applications to Docker images.
 >✍️  You can git clone and modify it.
 
-**Dockerfile public version:
-**```
+Dockerfile public version:
+```
 FROM openanalytics/r-ver:4.4.1
 
 LABEL maintainer="PJLab"
