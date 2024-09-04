@@ -50,7 +50,8 @@ And the next step you need put the R package and dependency packages you will us
 
 
 ## Second: Create Docker image by Dockerfile in the CMD
-## Bulid docker Image ##
+**Bulid docker Image**
+
 ```
 docker image build --tag <image_name>:<tag_content> .
 
