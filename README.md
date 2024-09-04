@@ -1,9 +1,10 @@
 # docker_shiny
 Creating an R shiny Docker image using Dockerfile
 
-## First: Create Dockerfile and perpare your R shiny program code.
+## First: Create Dockerfile and prepare your R shiny program code.
 This is the public version of Dockerfile, which is used to build R shiny applications to Docker images.
->✍️  You can git clone and modify it.
+you need to create Dockerfile and prepare your R shiny program code in the same folder. 
+>✍️  You can git clone and modify them.
 
 Dockerfile public version:
 ```
@@ -44,5 +45,8 @@ CMD ["R", "-e", "shiny::runApp('/root/test')"]
 
 ```
 And the next step you need put the R package and dependency packages you will use in the Dockerfile.
+
+## Second: Create Dockerfile and perpare your R shiny program code.
+
 
 
