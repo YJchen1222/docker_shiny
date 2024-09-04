@@ -46,7 +46,12 @@ CMD ["R", "-e", "shiny::runApp('/root/test')"]
 ```
 And the next step you need put the R package and dependency packages you will use in the Dockerfile.
 
-## Second: Create Dockerfile and perpare your R shiny program code.
+>👀  Default folder structure
 
 
+## Second: Create Docker image by Dockerfile in the CMD
+```
+docker image build --tag <image_name>:<tag_content> .
+
+```
 
